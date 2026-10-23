@@ -1079,3 +1079,70 @@ footer .wm {
     width: 22px;
     height: 22px
 }
+
+.med img {
+    object-fit: contain;
+    background: #101012
+}
+
+.sk {
+    justify-content: center;
+    margin-top: 30px
+}
+
+.sk .chip {
+    cursor: default
+}
+
+.sk .chip:hover {
+    background: var(--ac);
+    color: #fff
+}
+
+.dd {
+    background: var(--sf);
+    border: 1px solid var(--ln);
+    border-radius: 20px;
+    box-shadow: var(--sh);
+    padding: 6px 26px
+}
+
+.dd summary {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 18px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.dd summary::-webkit-details-marker {
+    display: none
+}
+
+.dd summary:after {
+    content: "▾";
+    color: var(--ac)
+}
+
+.dd[open] summary:after {
+    content: "▴"
+}
+
+.dd p {
+    margin-bottom: 14px
+}
+
+.dd .chips {
+    padding-bottom: 24px
+}
+
+.dg3 {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))
+}
+
+.dg3 .med {
+    height: 190px
+}
