@@ -17,6 +17,7 @@
     <header class="hero">
         <div class="w">
             <div class="hl">
+                <h1>EasyTech</h1>
                 <p class="mu">Software developer and educator, with a strong focus on AI/business automation and website
                     development.</p>
                 <div class="row"><a class="btn p" href="#projects">View My Work →</a><a class="btn" href="#contact">Hire
@@ -24,7 +25,7 @@
             </div>
             <div class="hr">
                 <div class="ph">
-                    <div>ET<img src="easy.png" alt="EasyTech" onerror="this.remove()"></div>
+                    <div>ET<img id="hp" alt="EasyTech"></div>
                 </div><span class="hi">Hello, I’m EasyTech.</span>
             </div>
         </div>
@@ -110,13 +111,23 @@
             </form>
         </div>
     </section>
+    <section id="skills">
+        <div class="w ctr"><span class="pill">What I work with</span>
+            <h2>Some of my <em>skills</em></h2>
+            <div class="chips sk"><span class="chip">HTML</span><span class="chip">CSS</span><span
+                    class="chip">JavaScript</span><span class="chip">React.js</span><span
+                    class="chip">Python</span><span class="chip">Tailwind</span><span class="chip">SQL</span><span
+                    class="chip">Make.com</span><span class="chip">Vapi</span><span class="chip">n8n</span><span
+                    class="chip">HubSpot</span><span class="chip">Excel</span><span class="chip">and more…</span></div>
+        </div>
+    </section>
     <section id="support" style="padding-top:20px">
-        <div class="w sup">
-            <div>
-                <h2 style="font-size:1.4rem">♡ Support the work</h2>
+        <div class="w">
+            <details class="dd" id="sd">
+                <summary>♡ Support the work</summary>
                 <p class="mu">If you want to support my work or the scholarship program, chip in whatever you like.</p>
-            </div>
-            <div class="chips" id="sup"></div>
+                <div class="chips" id="sup"></div>
+            </details>
         </div>
     </section>
     <script src="script.js"></script>
