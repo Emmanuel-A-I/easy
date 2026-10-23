@@ -59,4 +59,4 @@ rv();
 if ($('#plist')) { const more = id => { const c = $(id); if (c.children.length < 3) return;[...c.children].forEach((e, i) => i > 1 && e.classList.add('xm')); const b = document.createElement('button'); b.className = 'btn vm'; b.textContent = 'View more'; b.onclick = () => { c.classList.toggle('open'); b.textContent = c.classList.contains('open') ? 'View less' : 'View more' }; c.after(b) }; more('#plist'); more('#cls') }
 
 addEventListener('hashchange', () => { if (location.hash === '#support' && $('#sd')) $('#sd').open = true });
-const hp = $('#hp'); if (hp) { const n = ['photo.jpg', 'photo.jpeg', 'photo.png', 'photo.webp', 'easy.jpg', 'profile.jpeg', 'profile.png']; let i = 0; hp.onerror = () => { i++; i < n.length ? hp.src = 'images/' + n[i] : hp.remove() }; hp.src = 'images/' + n[0] }
+const hp = $('#hp'); if (hp) { const n = ['photo.jpg', 'photo.jpeg', 'photo.png', 'photo.webp', 'easy.png', 'profile.jpeg', 'profile.png']; let i = 0; hp.onerror = () => { i++; i < n.length ? hp.src = 'images/' + n[i] : hp.remove() }; hp.src = 'images/' + n[0] }
