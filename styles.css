@@ -736,7 +736,8 @@ footer .lg {
 
 #wa {
     left: 22px;
-    background: #25d366
+    background: #25d366;
+    display: none
 }
 
 .fl svg {
