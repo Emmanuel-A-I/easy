@@ -736,8 +736,7 @@ footer .lg {
 
 #wa {
     left: 22px;
-    background: #25d366;
-    display: none
+    background: #25d366
 }
 
 .fl svg {
@@ -1060,6 +1059,7 @@ footer .wm {
 @media(max-width:900px) {
 
     .col:not(.open) .xm,
+    #prob:not(.open) .xm,
     #plist:not(.open) .xm,
     #cls:not(.open) .xm {
         display: none
@@ -1146,4 +1146,23 @@ footer .wm {
 
 .dg3 .med {
     height: 190px
+}
+
+.ico {
+    font-size: 2rem;
+    margin-bottom: 10px
+}
+
+#prob .card p {
+    margin-top: 8px
+}
+
+#prob .card b {
+    display: inline;
+    color: var(--tx)
+}
+
+.gain {
+    color: var(--ac) !important;
+    font-weight: 700
 }
